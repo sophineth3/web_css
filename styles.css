@@ -1,0 +1,91 @@
+body{
+  font-family: system-ui;
+}
+h1{
+  color: #FEF9E7;
+  font-family: cursive;
+  font-size: 80px;
+  font-weight: lighter;
+  padding: 100px 80px;
+}
+
+.box{
+  background-image: url(img/home.jpeg);
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  background-size: cover;
+}
+
+.nav-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px 30px 0;
+}
+.btn-1{
+  background: #273746;
+  color: white;
+  border: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-family: system-ui;
+  font-weight: lighter;
+  cursor: pointer;
+
+}
+
+.scroller {
+  height: 400px;
+  overflow-y: scroll;
+  scrollbar-color: black;
+  scrollbar-width: thin;
+  background-color: #FCF3CF;
+  align-self: center;
+}
+
+.container{
+  display: flex;
+  float: left;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-1{
+  width: 300px;
+  height: 400px;
+}
+.text{
+  color: #273746;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+
+
+footer{
+  color: white;
+  background-color: #273746;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.navfoot{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navfoot, .footer-1{
+    padding-left: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style: none;
+}
